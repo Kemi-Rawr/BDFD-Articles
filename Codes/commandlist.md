@@ -11,6 +11,7 @@ Allows you to view all BDFD functions (10 per page)
 # Code
 > [!NOTE]
 > Press the copy button to immediately copy all the code
+> 
 > Join the [Official BDFD Server](https://discord.gg/botdesigner) for support in case of errors
 ```
 $nomention
