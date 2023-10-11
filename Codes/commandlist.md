@@ -11,7 +11,7 @@ Allows you to view all BDFD functions (10 per page)
 # Code
 > [!NOTE]
 > Press the copy button to immediately copy all the code
-> Report any error to kemi_rawr on discord
+> Join the [Official BDFD Server](https://discord.gg/botdesigner) for support in case of errors
 ```
 $nomention
 $var[msg;$trimSpace[$message]]
