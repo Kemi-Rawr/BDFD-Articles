@@ -4,10 +4,10 @@ Allows you to view all BDFD functions (10 per page)
 ## Command usage
 `<prefix>commandlist (Page)`
 
-### Preview
+## Preview
 ![Screenshot_20231010-231735~2](https://github.com/Kemi-Rawr/bdfd-codes/assets/111205130/bbf189d2-80ea-4899-9fdb-8361a5645317)
 
-### Code
+# Code
 
 ```
 $nomention
