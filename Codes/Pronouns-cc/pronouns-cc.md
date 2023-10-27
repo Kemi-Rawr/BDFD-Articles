@@ -59,4 +59,4 @@ $color[#FF9CFB]
 $endif
 $endif
 ```
-> **[Go to $onInteraction code](/$onInteraction.md)**
+> **[View the $onInteraction code](/$onInteraction.md)**
