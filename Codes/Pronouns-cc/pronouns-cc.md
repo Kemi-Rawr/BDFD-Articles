@@ -27,3 +27,36 @@ Allows you to view information about users of the **[Pronouns.cc](https://pronou
 </details>
 
 # Code
+> [!NOTE]
+> Press the copy button to immediately copy all the code
+
+> [!IMPORTANT]
+> Join the [Official BDFD Server](https://discord.gg/botdesigner) for support in case of errors
+```
+$nomention
+$var[user;$message]
+$if[$var[user]==]
+$title[Incorrect Command Usage]
+$description[Provide the user you want to get information from]
+$footer[!pronounscc <username/user ID>]
+$color[#FF9CFB]
+$else
+$httpGet[https://pronouns.cc/api/v1/users/$url[encode;$var[user]]]
+$jsonParse[$httpResult]
+$if[$httpStatus!=200]
+$title[User not Found]
+$description[Could not find any user for **$var[user]**]
+$color[#FF9CFB]
+$else
+$title[@$json[name] ($json[display_name])]
+$description[$replaceText[$json[bio];$url[decode;%0A+];$url[decode;%0A]]]
+$thumbnail[https://cdn.pronouns.cc/users/$json[id]/$json[avatar].webp]
+$footer[User ID | $json[id]]
+$addButton[no;pcc-user_$json[id]_names;View Names;secondary]
+$addButton[no;pcc-user_$json[id]_pronouns;View Pronouns;secondary]
+$addButton[no;pcc-user_$json[id]_members;View Members;secondary]
+$color[#FF9CFB] 
+$endif
+$endif
+```
+> **[Go to $onInteraction code](/$onInteraction.md)**
