@@ -1,12 +1,20 @@
-# Command Info
-Allows you to view all BDFD functions (10 per page)
+# Command Information
+Allows you to view all BDFD functions (10 per page) or view information about a specific function through Function Query
 
 ## Command usage
 + `<prefix>commandlist (Page)`
 + `<prefix>commandlist (Function Query)`
 ## Preview
-![Screenshot_20231010-231735~2](https://github.com/Kemi-Rawr/bdfd-codes/assets/111205130/bbf189d2-80ea-4899-9fdb-8361a5645317)
+<details><summary>Preview 1</summary>
+
+ ![Screenshot_20231010-231735~2](https://github.com/Kemi-Rawr/bdfd-codes/assets/111205130/bbf189d2-80ea-4899-9fdb-8361a5645317)
+
+</details>
+
+<details><summary>Preview 2</summary>
+  
 ![Screenshot_20231011-184245~2](https://github.com/Kemi-Rawr/bdfd-codes/assets/111205130/db242cb0-ce07-4de9-b049-b384820693dd)
+</details>
 
 # Code
 > [!NOTE]
