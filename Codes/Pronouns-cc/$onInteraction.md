@@ -135,4 +135,4 @@ $addButton[no;pcc-user_$json[id]_members;View Members;secondary]
 $color[#FF9CFB]
 $endif $endif
 ```
-> **[Tap to view the main code](/pronouns-cc.md)**
+> **[Tap to view the main code](/Codes/Pronouns-cc/pronouns-cc.md)**
