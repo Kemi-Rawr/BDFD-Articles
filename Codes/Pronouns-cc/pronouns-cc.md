@@ -48,14 +48,27 @@ $title[User not Found]
 $description[Could not find any user for **$var[user]**]
 $color[#FF9CFB]
 $else
-$title[@$json[name] ($json[display_name])]
-$description[$replaceText[$json[bio];$url[decode;%0A+];$url[decode;%0A]]]
+$title[@$json[name] $if[$json[display_name]!=]($json[display_name])$endif]
+$description[$trimSpace[$if[$json[bio]==] _User has no biography set_ $else $replaceText[$json[bio];$url[decode;%0A+];$url[decode;%0A]] $endif]]
 $thumbnail[https://cdn.pronouns.cc/users/$json[id]/$json[avatar].webp]
 $footer[User ID | $json[id]]
-$addButton[no;pcc-user_$json[id]_names;View Names;secondary]
-$addButton[no;pcc-user_$json[id]_pronouns;View Pronouns;secondary]
-$addButton[no;pcc-user_$json[id]_members;View Members;secondary]
-$color[#FF9CFB] 
+$if[$or[$jsonArrayCount[names]>0;$jsonArrayCount[pronouns]>0;$jsonArrayCount[links]>0;$jsonArrayCount[fields]>0]==true]
+$newSelectMenu[pcc-user-info;1;1;User Information]
+$if[$jsonArrayCount[names]>0]
+$addSelectMenuOption[pcc-user-info;Names;pcc-user_$json[id]_names;View $json[name]'s names]
+$endif
+$if[$jsonArrayCount[pronouns]>0]
+$addSelectMenuOption[pcc-user-info;Pronouns;pcc-user_$json[id]_pronouns;View $json[name]'s pronouns]
+$endif
+$if[$jsonArrayCount[links]>0]
+$addSelectMenuOption[pcc-user-info;Links;pcc-user_$json[id]_links;View $json[name]'s links]
+$endif
+$if[$jsonArrayCount[fields]>0]
+$addSelectMenuOption[pcc-user-info;Fields;pcc-user_$json[id]_fields;View fields set by $json[name]]
+$endif
+$endif
+$addButton[no;pcc-user_$json[id]_members;Members;secondary;$checkCondition[$jsonArrayCount[members]==0]]
+$color[#FF9CFB]
 $endif
 $endif
 ```
