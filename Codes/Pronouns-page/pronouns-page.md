@@ -41,4 +41,4 @@ $endif
 $endif
 $endif
 ```
-> View the **[$onInteraction](/$onInteraction.md)** code
+> View the **[$onInteraction](/Codes/Pronouns-page/$onInteraction.md)** code
