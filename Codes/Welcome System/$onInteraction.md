@@ -1,5 +1,7 @@
 
 # Command Script
+> [!IMPORTANT]
+> Make sure to have set the **[Variables](/Codes/Welcome System/Variables.md)**
 
 <details><summary>Click to view the code</summary>
 
