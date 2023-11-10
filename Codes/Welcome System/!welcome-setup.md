@@ -14,7 +14,7 @@ The main page of the welcome system, which leads to the other properties of the 
 > Press the copy button to immediately copy all the code at once
 
 > [!IMPORTANT]
-> Any error please go to the **[Official BDFD Server](https://discord.gg/botdesigner)** and explain your issue
+> Join the **[Official BDFD Server](https://discord.gg/botdesigner)** in case of any issues/questions
 
 <details><summary>Click to view the code</summary>
   
