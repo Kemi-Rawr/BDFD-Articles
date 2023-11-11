@@ -1,5 +1,5 @@
 > [!IMPORTANT]
-> Make sure you've set up the **[variables](/Codes/Welcome-System/variables.md)** and created the **[!welcome-setup](/Codes/Welcome-System/!welcome-setup.md)** command
+> Make sure you've set up the **[variables](/Codes/Welcome-System/variables.md)** and create the **[!welcome-setup](/Codes/Welcome-System/!welcome-setup.md)** command
 
 > [!NOTE]
 > Press the copy button to immediately copy all the code at once
