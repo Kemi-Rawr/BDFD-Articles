@@ -18,6 +18,7 @@ The main page of the welcome system, which leads to the other properties of the 
 > [!IMPORTANT]
 > Join the **[Official BDFD Server](https://discord.gg/botdesigner)** in case of any issues/questions
 
+> ⚠️ Script Language: BDScript 2
   
 ```
 $nomention
