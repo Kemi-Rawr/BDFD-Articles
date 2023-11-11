@@ -1,10 +1,14 @@
 > [!IMPORTANT]
 > Make sure you've set up the **[variables](/Codes/Welcome-System/variables.md)** and created the **[!welcome-setup](/Codes/Welcome-System/!welcome-setup.md)** command
 
+> [!NOTE]
+> Press the copy button to immediately copy all the code at once
 # Command Script
 
 
 <details><summary>Click to view code</summary>
+
+  > ⚠️ Script Language: BDScript 2
   
   ```
 $nomention
