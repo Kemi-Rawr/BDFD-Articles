@@ -11,7 +11,7 @@
 $nomention
 $try
 $jsonParse[$getUserVar[wlc-set;$botID]]
-$httpGet[https://gist.githubusercontent.com/Kemi-Rawr/d50a9774db85600363d5f0a80cd0c950/raw/00fde99a85fac974e94d398d021a5e3e0cccae2f/$onJoined.js]
+$httpGet[https://gist.githubusercontent.com/Kemi-Rawr/d50a9774db85600363d5f0a80cd0c950/raw/65c6f280b2edddc018919adad92cc2660eaf7325/$onJoined.js]
 $eval[$httpResult]
 $onlyIf[$json[e]==1;]
 $jsonParse[$getUserVar[wlc-set-2;$botID]]
