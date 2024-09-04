@@ -7,19 +7,19 @@ The way this syntax needs to be written is like `"key": "value"`, which successf
 ## Examples ##
 ```
 {
-  "fruit": "orange"
+  "fruit": "pineapple"
 }
 ```
-Here, `fruit` is the key (variable name) and `orange` is the value (variable value).
+Here, `fruit` is the key (variable name) and `pineapple` is the value (variable value).
 
 We have successfully built our first variable on our JSON object, but the point of JSON is to serve as a multiple-variable storage. Let's go ahead and add more variables to it.
 ### Multiple variables (key-value pairs) ###
 
 ```
 { 
-  "fruit": "orange",
+  "fruit": "pineapple",
   "quality": "good",
-  "color": "green"
+  "color": "orange"
 }
 ```
 If you have multiple key-value pairs, you gotta separate each with a `,` until the last one. That is required, and will cause errors if not applied correctly.
@@ -27,8 +27,8 @@ If you have multiple key-value pairs, you gotta separate each with a `,` until t
 ```
 {
  "fruits": {
-  "orange": {
-   "color": "green",
+  "pineapple": {
+   "color": "orange",
    "quality": "good"
   },
   "banana": {
@@ -38,4 +38,4 @@ If you have multiple key-value pairs, you gotta separate each with a `,` until t
  }
 }
 ```
-Looks complicated? It is indeed, but only once. Here, we have created an variable named `fruits` with two values: the `orange` & `banana` variables
+Looks complicated? Indeed it is, but only once. Here, we have created a variable named `fruits` with two values: the `pineapple` & `banana` variables. Now, we want to access the
