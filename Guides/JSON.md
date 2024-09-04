@@ -26,18 +26,13 @@ If you have multiple key-value pairs, you gotta separate each with a `,` until t
 ### Nested variables ###
 ```
 {
- "fruits": {
-  "pineapple": {
-   "color": "orange",
-   "quality": "good"
-  },
-  "banana": {
-   "color": "yellow",
-   "quality": "bad"
-  }
+"pineapple": {
+ "color": "orange",
+ "quality": "good"
+ },
+"banana": {
+ "color": "yellow",
+ "quality": "bad"
  }
 }
 ```
-Looks complicated? Indeed it is, but only once. Here, we have created a **object** named `fruits` with two **properties**: `pineapple` & `banana`. Now, we want to access the `color` variable from the `banana` property, how to do so?
-
-In JSON, . So if we want to access it, we'll have to access the 
