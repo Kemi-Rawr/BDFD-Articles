@@ -36,3 +36,4 @@ If you have multiple key-value pairs, you gotta separate each with a `,` until t
  }
 }
 ```
+On this example, we have nested variables — that is, we have variables within/inside another variable.
